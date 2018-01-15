@@ -22,7 +22,7 @@ $ composer require fluffy/monolog-cascade-namespaced
 Usage
 -----
 
-Load configuration (Monolog cascade [supports](https://github.com/theorchard/monolog-cascade#configuring-your-loggers) `yml`, `json` and `php` configuration formats):
+Load configuration (Monolog cascade [supports](https://github.com/theorchard/monolog-cascade#configuring-your-loggers) the following config formats: `yml`, `json` and `php`):
 ```php
 <?php
 
