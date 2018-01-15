@@ -1,0 +1,8 @@
+handlers:
+    console:
+        class: Monolog\Handler\StreamHandler
+        stream: php://stdout
+
+loggers:
+    root:
+        handlers: [console]

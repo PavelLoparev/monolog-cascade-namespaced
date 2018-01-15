@@ -1,0 +1,17 @@
+handlers:
+    console:
+        class: Monolog\Handler\StreamHandler
+        stream: php://stdout
+
+loggers:
+    root:
+        handlers: [console]
+
+    Tests\TestClasses\Deep:
+        handlers: [console]
+
+    Tests\TestClasses\TestClass2:
+        handlers: [console]
+
+    Tests\TestClasses\Deep\TestClass4:
+        handlers: [console]

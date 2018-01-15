@@ -1,0 +1,40 @@
+{
+  "name": "fluffy/monolog-cascade-namespaced",
+  "license": "MIT",
+  "type": "library",
+  "description": "Monolog cascade extension allows to configure loggers for a specific namespace/class (log4j style)",
+  "keywords": [
+    "monolog",
+    "namespace",
+    "namespaced logger",
+    "monolog-cascade extension",
+    "monolog-cascade plugin",
+    "monolog utils",
+    "logger",
+    "log4j",
+    "log"
+  ],
+  "authors": [
+    {
+      "name": "Pavel Loparev",
+      "homepage": "https://github.com/PavelLoparev"
+    }
+  ],
+  "homepage": "https://github.com/PavelLoparev/monolog-cascade-namespaced",
+  "require": {
+    "theorchard/monolog-cascade": "^0.5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "CascadeNamespaced\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\TestClasses\\": "tests/src"
+    }
+  }
+}
